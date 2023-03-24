@@ -1,0 +1,7 @@
+In this project, we use the Hugging Face library to tune transformer models for specific tasks. First, the necessary dependencies are installed, including the Transformers library and SentencePiece. Then, it shows how to use a pre-trained model for sentiment analysis in English and Spanish, using the Transformers pipeline class. In addition, it demonstrates how to generate text with the text generation pipeline class and how to use the pipeline class to complete masked words.
+
+Here's how to train a custom sentiment ranking model using the IMDb dataset and the Transformers library. The pretrained BERT tokenizer is loaded and the input data is processed using a custom tokenization function. The input data is then mapped and training and evaluation sets are created.
+
+A default data generator for Tensorflow is used to generate batches of training and evaluation data, and the sequence classification model is built using the pre-trained BERT model from the Hugging Face library. Finally, the model is compiled and trained on the training and evaluation data.
+
+In summary, this project shows how to use the Hugging Face library for the task of tuning transformer models for specific tasks, such as sentiment analysis and sequence classification. It also shows how to load pre-trained models, use pipeline classes, and how to train custom models using the IMDb dataset.
